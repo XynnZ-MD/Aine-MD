@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 owner = [
-  ['6285956409734'],
-  ['6285956409734'],
-  ['6285956409734', 'Owner', true]
+  ['6283100185651'],
+  ['6283832870170'],
+  ['6282127124134', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
@@ -40,8 +40,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@XynnZ_bot'
-  var sticker_author = 'XynnZ'
+  var sticker_name = '@WZ_bot'
+  var sticker_author = 'FXHRII'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
